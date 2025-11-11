@@ -5,11 +5,11 @@ import sys
 
 # --- 1. KONFIGURACJA ---
 # Ustaw ścieżkę do GŁÓWNEGO folderu ze zbiorem danych (tam gdzie są 'train', 'test', 'val')
-SOURCE_DIR = Path(r'C:\Users\rafal\PycharmProjects\Zaawansowane-metody-SI\xray\chest_xray')
+SOURCE_DIR = Path(r'C:\Users\rafal\PycharmProjects\Zaawansowane-metody-SI\xray\chest_xray_split_500')
 
 # Ustaw ścieżkę, gdzie skrypt ma zapisać NOWE, przetworzone obrazy
 # Najlepiej, aby był to nowy, pusty folder
-OUTPUT_DIR = Path(r'C:\Users\rafal\PycharmProjects\Zaawansowane-metody-SI\xray\chest_xray_processed_padded')
+OUTPUT_DIR = Path(r'C:\Users\rafal\PycharmProjects\Zaawansowane-metody-SI\xray\chest_xray_split_500_processed')
 
 # Ustaw docelowy rozmiar obrazu (kwadrat).
 # 512 to dobry kompromis.
